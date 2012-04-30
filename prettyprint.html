@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Prettify</title>
+  <link href="prettify.css" type="text/css" rel="stylesheet" />
+</head>
+<body onload="prettyPrint()">
+  <textarea rows="20" cols="60" id="input" placeholder="Put text in here!"></textarea>
+  <button onClick="pp()">PrettyPrint!</button>
+  <pre id="pp" class="prettyprint linenums">// You'll see output here!</pre>
+  <script type="text/javascript" src="prettify.js"></script>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script>
+    function pp() {
+      $('#pp').html($('#input').val());
+      prettyPrint();
+    }
+  </script>
+</body>
+</html>
