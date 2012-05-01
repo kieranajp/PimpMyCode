@@ -19,7 +19,10 @@
     <textarea rows="20" cols="60" id="input" placeholder="Put text in here!"></textarea>
   </div>
   <div class="buttoncontainer">
-    <button onClick="pp()">PrettyPrint it!</button>
+    <button onClick="pp()">PrettyPrint it!</button><div style="display: none;"><br>
+    <input type="radio" name="ss" value="light"> Light syntax highlighting
+    <input type="radio" name="ss" value="dark"> Dark syntax highlighting
+    </div>
   </div>
   <pre id="pp" class="prettyprint linenums">// You'll see output here!</pre>
   <script type="text/javascript" src="prettify.js"></script>
