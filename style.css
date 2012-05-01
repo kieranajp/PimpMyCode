@@ -1,0 +1,65 @@
+html	{
+	height:100%;
+	background: #eeeeee;
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+	background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+	background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+	background: linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );	
+}
+.title	{
+	width:100%;
+	min-width:700px;
+	height:70px;
+	background: #fb83fa;
+	background: -moz-linear-gradient(top,  #fb83fa 0%, #e93cec 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb83fa), color-stop(100%,#e93cec));
+	background: -webkit-linear-gradient(top,  #fb83fa 0%,#e93cec 100%);
+	background: -o-linear-gradient(top,  #fb83fa 0%,#e93cec 100%);
+	background: -ms-linear-gradient(top,  #fb83fa 0%,#e93cec 100%);
+	background: linear-gradient(top,  #fb83fa 0%,#e93cec 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', endColorstr='#e93cec',GradientType=0 );
+	text-align: center;
+	border-bottom:solid 1px #000;
+	box-shadow:0 0 10px #000;
+}
+.title h1	{
+	font-family: 'Press Start 2P', cursive;
+	font-size:24pt;
+	color:#fff;
+	display:block;
+	padding-top:15px;
+	text-shadow:1px 1px 1px #000;
+}
+.inputcontainer	{
+	width:700px;
+	margin:40px auto;
+	padding:40px 40px 0px 40px;
+}
+#input	{
+	width:700px;
+	height:200px;
+	font-family:Courier New;
+	font-size:14pt;
+}
+.buttoncontainer	{
+	width:150px;
+	height:50px;
+	margin:0px auto;
+}
+.buttoncontainer button	{
+	width:150px;
+	height:50px;
+	font-family:Helvetica Neue, sans-serif;
+	font-size:16pt;
+}
+#pp	{
+	width:700px;
+	height:auto;
+	margin:20px auto;
+	font-family:Courier New;
+	font-size:14pt;
+	background-color: #fff;
+}
