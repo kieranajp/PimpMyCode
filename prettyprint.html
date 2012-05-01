@@ -16,7 +16,8 @@
   <script type="text/javascript" src="jquery.min.js"></script>
   <script>
     function pp() {
-      $('#pp').html($('#input').val());
+      var escaped = $('#input').val().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      $('#pp').html(escaped);
       prettyPrint();
     }
   </script>
