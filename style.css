@@ -1,15 +1,20 @@
+html, body {
+	margin: 0; padding: 0;
+}
+
 html	{
 	height:100%;
 	background: #eeeeee;
-	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
+	/*background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
 	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
 	background: -o-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
 	background: -ms-linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
 	background: linear-gradient(top,  #eeeeee 0%,#cccccc 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );*/
 }
 .title	{
+  margin-top: -20px;
 	width:100%;
 	min-width:700px;
 	height:70px;
@@ -33,6 +38,20 @@ html	{
 	padding-top:15px;
 	text-shadow:1px 1px 1px #000;
 }
+button {
+  width: 100px;
+  height: 35px;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.buttoncontainer {
+  text-align: center;
+}
+.buttoncontainer>label {
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 0px 10px 0px 5px;
+}
 .inputcontainer	{
 	width:700px;
 	margin:40px auto;
@@ -41,25 +60,11 @@ html	{
 #input	{
 	width:700px;
 	height:200px;
-	font-family:Courier New;
-	font-size:14pt;
-}
-.buttoncontainer	{
-	width:150px;
-	height:50px;
-	margin:0px auto;
-}
-.buttoncontainer button	{
-	width:150px;
-	height:50px;
-	font-family:Helvetica Neue, sans-serif;
-	font-size:16pt;
 }
 #pp	{
-	width:700px;
+	width:70%;
 	height:auto;
-	margin:20px auto;
-	font-family:Courier New;
-	font-size:14pt;
-	background-color: #fff;
+	margin:20px auto 20px auto;
+
+	overflow: scroll;
 }
